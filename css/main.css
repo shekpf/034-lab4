@@ -1,17 +1,17 @@
 body tr td {
-    color: #f30515;
+    color: #f1f1f1;
 }
 
 #body2 > tr {
-    color: #2be41a;
+    color: #f0f0f0;
 }
 
 aside p+p {
-    color: #f51111;
+    color: #ffffff;
 }
 
 #saturn th {
-    color: #23e91c
+    color: #f0f0f0
 }
 
 #sectino {
@@ -43,7 +43,22 @@ body {
     font-family: sans-serif;
 }
 
-#header {
-    width: 100%;
-    
+ header {
+      background-color: #000000;
+      padding: 20px;
+ }
+
+section {
+  border: 1px solid rgb(252, 252, 252);
+}
+
+.menu {
+  margin: 0 85px;   /* ระยะห่างด้านบน/ล่าง = 0, ซ้าย/ขวา = 85px */
+}
+
+footer {
+  text-align: center;       /* จัดข้อความให้อยู่ตรงกลาง */
+  background-color: blue;   /* กำหนดพื้นหลังเป็นสีน้ำเงิน */
+  color: white;             /* (แนะนำ) กำหนดสีตัวอักษรให้มองเห็นชัดบนพื้นน้ำเงิน */
+  padding: 20px;            /* (แนะนำ) เพิ่มระยะห่างด้านใน footer */
 }
