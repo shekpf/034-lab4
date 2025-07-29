@@ -1,0 +1,49 @@
+body tr td {
+    color: #f30515;
+}
+
+#body2 > tr {
+    color: #2be41a;
+}
+
+aside p+p {
+    color: #f51111;
+}
+
+#saturn th {
+    color: #23e91c
+}
+
+#sectino {
+    box-shadow: white ;
+}
+
+#jupiter {
+    background-image: url(../images/Jupiter.jpg);
+}
+
+#saturn {
+    background-image: url(../images/Saturn.jpg);
+}
+
+#uranus {
+    background-image: url(../images/Uranus.jpg);
+}
+
+#neptune {
+    background-image: url(../images/Neptune.jpg);
+}
+
+body {
+    width:900px;
+    margin: 0 auto;
+    background-color: #020202;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    
+}
