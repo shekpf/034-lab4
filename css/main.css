@@ -1,66 +1,80 @@
-body tr td {
-    color: #f1f1f1;
+body{
+    width: 900px;
+    margin: 0 auto;
+    background: black;
+    color: #fff;
+    font: 20px sans-serif;
 }
-
-#body2 > tr {
-    color: #eb7202;
+header{
+    padding: 10px 0px;
+    font-size: 1.5em;
+    text-align: center;
 }
-
-aside p+p {
-    color: #ffffff;
+h2{
+    font-size: 20px;
+    margin-top: 0;
 }
-
-#saturn th {
-    color: #ffffff
+a{
+    color: #FAA202;
+    font-weight: bold;
 }
-
-#sectino {
-    box-shadow: white ;
+li{
+    list-style: none;
+    float: left;
+    margin: 0 85px;
 }
-
-#jupiter {
+.menu{
+    padding: 0px 10px;
+}
+main{
+    margin-top: 50px;
+}
+table{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-spacing: 0;
+}
+caption{
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: left;
+}
+th, td{
+    text-align: left;
+}
+section{
+    margin: 20px 0px;
+    padding: 30px 20px 30px 20px;
+    border: 2px solid #fff;
+    /* box-shadow: 0px 5px 10px rgba(255, 255, 255, 1); */
+    /* border-radius: 10px; */
+}
+#jupiter{
     background-image: url(../images/Jupiter.jpg);
 }
-
-#saturn {
+#saturn{
     background-image: url(../images/Saturn.jpg);
 }
-
-#uranus {
+#uranus{
     background-image: url(../images/Uranus.jpg);
 }
-
-#neptune {
+#neptune{
     background-image: url(../images/Neptune.jpg);
 }
-
-body {
-    width:900px;
-    margin: 0 auto;
-    background-color: #020202;
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
+footer{
+    text-align: center;
+    background-color: #388bff;
 }
-
- header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
-section {
-  border: 1px solid rgb(253, 145, 20);
+/* tr td{
+    color: #ff0404;
 }
-
-.menu {
-  margin: 0 85px;         /* ระยะห่างด้านบน/ล่าง = 0, ซ้าย/ขวา = 85px */
+#tbody2>tr{
+    color: #04ecff;
 }
-
-footer {
-  text-align: center;       /* จัดข้อความให้อยู่ตรงกลาง */
-  background-color: blue;   /* กำหนดพื้นหลังเป็นสีน้ำเงิน */
-  color: white;             /* (แนะนำ) กำหนดสีตัวอักษรให้มองเห็นชัดบนพื้นน้ำเงิน */
-  padding: 20px;            /* (แนะนำ) เพิ่มระยะห่างด้านใน footer */
+aside p+p{
+    color: #04ff48;
 }
+#saturn th {
+    color: #04ecff;
+} 
