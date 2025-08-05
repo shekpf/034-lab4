@@ -3,7 +3,7 @@ body tr td {
 }
 
 #body2 > tr {
-    color: #f0f0f0;
+    color: #eb7202;
 }
 
 aside p+p {
@@ -11,7 +11,7 @@ aside p+p {
 }
 
 #saturn th {
-    color: #f0f0f0
+    color: #ffffff
 }
 
 #sectino {
@@ -44,16 +44,18 @@ body {
 }
 
  header {
-      background-color: #000000;
-      padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
 section {
-  border: 1px solid rgb(252, 252, 252);
+  border: 1px solid rgb(253, 145, 20);
 }
 
 .menu {
-  margin: 0 85px;   /* ระยะห่างด้านบน/ล่าง = 0, ซ้าย/ขวา = 85px */
+  margin: 0 85px;         /* ระยะห่างด้านบน/ล่าง = 0, ซ้าย/ขวา = 85px */
 }
 
 footer {
